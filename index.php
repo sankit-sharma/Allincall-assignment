@@ -120,7 +120,9 @@
 
         </div>
         <div class="navigator-top">
+            <img src="/images/menu-icon.svg" width="25px" height="25px">
             <div class="navigator-top-inside">
+
                 <div class="heading1">
                     Dashboard
 

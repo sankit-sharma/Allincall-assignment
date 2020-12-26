@@ -300,6 +300,13 @@
     top: 20px;
 }
 
+.navigator-top img {
+    position: absolute;
+    top: 5px;
+    left: 10px;
+    display: none;
+}
+
 .navigator-top .navigator-top-inside .heading1 {
     position: static;
     width: 82px;
@@ -1242,5 +1249,250 @@
     .inside-content .listofusers {
         width: 195px;
         left: 460px;
+    }
+}
+
+@media only screen and (max-width:768px) {
+    .inner-content-div {
+        width: 768px;
+        height: 995px;
+    }
+    .navigator-top {
+        width: 670px;
+    }
+    .navigator-top .navigator-top-inside {
+        left: 0px;
+    }
+    .navigator-top .navigator-top-inside .heading1 {
+        margin: 0px 0px 0px 10px;
+    }
+    .navigator-top .navigator-top-inside .heading2 {
+        margin: 0px 0px 0px 10px;
+    }
+    .navigator-top .navigator-top-inside .heading3 {
+        margin: 0px 0px 0px 10px;
+    }
+    .navigator-top .navigator-top-inside .heading4 {
+        margin: 0px 0px 0px 10px;
+    }
+    .navigator-top .navigator-top-inside .heading5 {
+        margin: 0px 10px 0px 10px;
+    }
+    .navigator-top .navigator-top-inside .rectangle2 {
+        left: 33px;
+    }
+    .navigator-top .navigator-top-inside svg {
+        margin: 0px 0px 0px 10px;
+    }
+    .navigator-top .navigator-right {
+        right: -30px;
+        top: 20px;
+    }
+    .inside-content {
+        width: 430px;
+        height: 910px;
+    }
+    .inside-content .graph canvas {
+        width: 450px;
+        height: 250px;
+    }
+    .inside-content .text-1 {
+        left: 15px;
+    }
+    .inside-content .graph {
+        left: -35px;
+    }
+    .inside-content .imp-stats .text-2 svg {
+        left: 365px;
+    }
+    .inside-content .imp-stats .text-2 {
+        width: 400px;
+    }
+    .inside-content .imp-stats .text-2 h6 {
+        left: 295px;
+    }
+    .inside-content .imp-stats {
+        top: 334px;
+        left: 10px;
+    }
+    .inside-content .imp-stats .rect-div1,
+    .inside-content .imp-stats .rect-div2 {
+        width: 180px;
+        top: 90px;
+    }
+    .inside-content .imp-stats .rect-div3 {
+        width: 180px;
+    }
+    .inside-content .imp-stats .rect-div4 {
+        width: 180px;
+        left: 218px;
+    }
+    .inside-content .imp-stats .rect-div2 svg {
+        right: 36px;
+    }
+    .inside-content .imp-stats .rect-div5 {
+        height: 115px;
+        width: 400px;
+        top: 412px;
+    }
+    .document-div p {
+        top: 230px;
+    }
+    .inside-content .listofusers {
+        width: 195px;
+        left: 460px;
+        top: 580px;
+    }
+    .response-div {
+        top: 550px;
+    }
+    .links-div {
+        top: 70px;
+    }
+    .document-div {
+        top: 270px;
+    }
+    .inside-content .listofusers .list-1 {
+        top: 60px;
+    }
+    .inside-content .listofusers .list-2 {
+        top: 130px;
+    }
+    .inside-content .listofusers .list-3 {
+        top: 196px;
+    }
+    .inside-content .listofusers .list-4 {
+        top: 265px;
+    }
+}
+
+@media only screen and (max-width:360px) {
+    .inner-content-div {
+        width: 360px;
+        height: 2070px;
+    }
+    .navigator-top {
+        width: 670px;
+    }
+    .navigator-top .navigator-top-inside {
+        left: 0px;
+        display: none;
+    }
+    .navigator-top img {
+        top: 20px;
+        left: 30px;
+        display: block;
+        opacity: 0.5;
+    }
+    .navigator-top .navigator-top-inside .heading1 {
+        margin: 0px 0px 0px 10px;
+    }
+    .navigator-top .navigator-top-inside .heading2 {
+        margin: 0px 0px 0px 10px;
+    }
+    .navigator-top .navigator-top-inside .heading3 {
+        margin: 0px 0px 0px 10px;
+    }
+    .navigator-top .navigator-top-inside .heading4 {
+        margin: 0px 0px 0px 10px;
+    }
+    .navigator-top .navigator-top-inside .heading5 {
+        margin: 0px 10px 0px 10px;
+    }
+    .navigator-top .navigator-top-inside .rectangle2 {
+        left: 33px;
+    }
+    .navigator-top .navigator-top-inside svg {
+        margin: 0px 0px 0px 10px;
+    }
+    .navigator-top .navigator-right {
+        right: 350px;
+        top: 16px;
+    }
+    .inside-content {
+        width: 360px;
+        height: 1370px;
+    }
+    .inside-content .graph canvas {
+        width: 310px !important;
+        height: 160px !important;
+    }
+    .inside-content .text-1 {
+        left: 15px;
+    }
+    .inside-content .graph {
+        left: -35px;
+    }
+    .inside-content .imp-stats .text-2 svg {
+        left: 221px;
+        z-index: 100;
+        width: 20px;
+    }
+    .inside-content .imp-stats .text-2 {
+        width: 260px;
+    }
+    .inside-content .imp-stats .text-2 h6 {
+        left: 170px;
+        font-size: 10px;
+        top: -2px;
+    }
+    .inside-content .imp-stats {
+        top: 237px;
+        left: 10px;
+        width: 260px;
+    }
+    .inside-content .imp-stats .rect-div1 {
+        width: 260px;
+        top: 80px;
+    }
+    .inside-content .imp-stats .rect-div2 {
+        width: 260px;
+        top: 225px;
+    }
+    .inside-content .imp-stats .rect-div3 {
+        width: 260px;
+        top: 370px;
+    }
+    .inside-content .imp-stats .rect-div4 {
+        width: 260px;
+        top: 525px;
+        left: 0px;
+    }
+    .inside-content .imp-stats .rect-div2 svg {
+        right: 120px;
+    }
+    .inside-content .imp-stats .rect-div5 {
+        height: 130px;
+        width: 260px;
+        top: 680px;
+    }
+    .document-div p {
+        top: 230px;
+    }
+    .inside-content .listofusers {
+        width: 250px;
+        left: 15px;
+        top: 1050px;
+    }
+    .response-div {
+        top: 1950px;
+    }
+    .links-div {
+        top: 1460px;
+    }
+    .document-div {
+        top: 1660px;
+    }
+    .inside-content .listofusers .list-1 {
+        top: 60px;
+    }
+    .inside-content .listofusers .list-2 {
+        top: 130px;
+    }
+    .inside-content .listofusers .list-3 {
+        top: 196px;
+    }
+    .inside-content .listofusers .list-4 {
+        top: 265px;
     }
 }
